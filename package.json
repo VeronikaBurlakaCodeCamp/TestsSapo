@@ -1,0 +1,13 @@
+{
+  "name": "tests-sapo",
+  "private": true,
+  "scripts": {
+    "test": "playwright test",
+    "test:sapo": "playwright test tests/anmeldung-sapo.spec.ts"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.55.0",
+    "@types/node": "^26.6.5",
+    "dotenv": "^18.0.9"
+  }
+}
